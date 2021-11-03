@@ -61,4 +61,34 @@ public class Todo {
 	@UpdateTimestamp
 	Timestamp lastModified;
 
+	public Object getTodoStatus() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void setTodoStatus(Object todoStatus2) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public Object getDescription() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void setDescription(Object description2) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public Object getTitle() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void setTitle(Object title2) {
+		// TODO Auto-generated method stub
+
+	}
+
 }
