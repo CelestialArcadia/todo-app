@@ -1,4 +1,4 @@
-package services;
+package com.arcadia.todo.services;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,8 +6,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.arcadia.todo.model.Todo;
-
-import repositories.TodoRepository;
+import com.arcadia.todo.repositories.TodoRepository;
 
 // @service annotation makes Spring context be aware of this class as a service.
 
