@@ -89,4 +89,8 @@ public class Todo {
 		return this.id;
 	}
 
+	public static TodoBuilder builder() {
+		return new TodoBuilder();
+	}
+
 }
