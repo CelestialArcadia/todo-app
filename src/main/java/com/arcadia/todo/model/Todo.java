@@ -61,39 +61,32 @@ public class Todo {
 	@UpdateTimestamp
 	Timestamp lastModified;
 
-	public Object getTodoStatus() {
-		// TODO Auto-generated method stub
-		return null;
+	public TodoStatus getTodoStatus() {
+		return this.todoStatus;
 	}
 
-	public void setTodoStatus(Object todoStatus2) {
-		// TODO Auto-generated method stub
-
+	public void setTodoStatus(TodoStatus todoStatus) {
+		this.todoStatus = todoStatus;
 	}
 
-	public Object getDescription() {
-		// TODO Auto-generated method stub
-		return null;
+	public String getDescription() {
+		return this.description;
 	}
 
-	public void setDescription(Object description2) {
-		// TODO Auto-generated method stub
-
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
-	public Object getTitle() {
-		// TODO Auto-generated method stub
-		return null;
+	public String getTitle() {
+		return this.title;
 	}
 
-	public void setTitle(Object title2) {
-		// TODO Auto-generated method stub
-
+	public void setTitle(String title) {
+		this.title = title;
 	}
 
-	public Object getId() {
-		// TODO Auto-generated method stub
-		return null;
+	public Long getId() {
+		return this.id;
 	}
 
 }
